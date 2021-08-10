@@ -16,28 +16,21 @@ public class TestaAnimal {
 		cav.setIdade(5);
 		preg.setIdade(4);
 		
-		doguinho.somAnimal();
-		cav.somAnimal();
-		preg.somAnimal();
-		
-		doguinho.correr();
-		cav.correr();
-		preg.subir();
 		
 		System.out.println("O nome do cachorro é " + doguinho.getNome());
 		System.out.println("Ele tem " + doguinho.getIdade() + " anos");
-		System.out.println ("O cachorro " + doguinho.somAnimal());
-		System.out.println("O cachorro" + doguinho.correr());
+		doguinho.somAnimal();
+		doguinho.correr();
 		
-		System.out.println("O nome do cavalo é " + cav.getNome());
+		System.out.println("\nO nome do cavalo é " + cav.getNome());
 		System.out.println("Ele tem " + cav.getIdade() + " anos");
-		System.out.println("O cavalo " + cav.somAnimal());
-		System.out.println("O cavalo " + cav.correr());
+		cav.somAnimal();
+		cav.correr();
 		
-		System.out.println("O nome da preguiça é " + preg.getNome());
+		System.out.println("\nO nome da preguiça é " + preg.getNome());
 		System.out.println("Ela tem " + preg.getIdade() + " anos");
-		System.out.println("A preguiça " + preg.somAnimal());
-		System.out.println("A preguiça " + preg.subir());
+		preg.somAnimal();
+		preg.subir();
 		
 	}
 

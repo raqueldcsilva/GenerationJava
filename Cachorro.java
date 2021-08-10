@@ -4,12 +4,12 @@ public class Cachorro extends Animal {
 	
 	public void somAnimal() {
 		
-		System.out.println( "late");
+		System.out.println( "O CAchorro está latindo");
 	}
 	
 	public void correr() {
 		
-		System.out.println("corre");
+		System.out.println("O Cachorro corre");
 		
 	}
 
